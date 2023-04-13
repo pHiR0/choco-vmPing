@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vmPing</id>
+    <version>1.3.23</version>
+    <title>vmPing (Install)</title>
+    <authors>r-smith, pHiR0</authors>
+    <owners>pHiR0</owners>
+    <licenseUrl>https://github.com/pHiR0/vmPing/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/pHiR0/vmPing</projectUrl>
+    <iconUrl>https://github.com/r-smith/vmPing/blob/master/vmPing/Resources/vmPing-16.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>vmPing (Install)
+==============
+**vmPing** is a graphical ping utility for monitoring multiple hosts. Numerous host monitors can be added and removed, and each monitor dynamically resizes with the application window. Color-coding allows you to tell at a glance the status of each host. In addition to standard ICMP pings, you can also perform a TCP 'port ping', where the application continuously connects to a specified port and displays whether or not the port is open. A fast trace route utility and a basic packet generator / stress tester is also included.</description>
+    <summary>vmPing is a graphical ping utility for monitoring multiple hosts.</summary>
+    <releaseNotes>-------------------
+    - Fix: Force software rendering. This should fix high GPU usage on some video cards. 6d39400
+    - Fix: Loading a favorite on startup was not using the column count for the favorite. 619d722
+    - Fix: Scroll indicator icon would unnecessarily display when the window was resized to small dimensions. c412495
+    - The position and size of the status history window is now remembered rather than resetting each time it's opened. d411095
+    - Switch to using SnapToDevicePixels on the main window. Previously, the pixel width for the black borders between probes would sometimes vary when the window was resized. The borders should now always be consistent. 45b23de
+    - Removed gaps when hovering mouse between menu buttons (Add Host, Columns, Start/Stop All). Removed gap from right edge of main menu button. 6f51eb7
+    - Some of the menu headers have been renamed on the options screen. 531abb1
+    </releaseNotes>
+    <copyright>Copyright © 2023 Ryan Smith</copyright>
+    <tags>traceroute tracert ping dns pingports monitoring portable</tags>
+    <projectSourceUrl>https://github.com/r-smith/vmPing</projectSourceUrl>
+    <packageSourceUrl>https://github.com/pHiR0/vmPing</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/r-smith/vmPing/issues</bugTrackerUrl>
+  </metadata>
+</package>
