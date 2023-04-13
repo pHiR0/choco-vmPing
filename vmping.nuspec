@@ -24,8 +24,8 @@
 - Some of the menu headers have been renamed on the options screen. 531abb1</releaseNotes>
     <copyright>Copyright © 2023 Ryan Smith</copyright>
     <tags>traceroute tracert ping dns pingports monitoring</tags>
-    <projectSourceUrl>https://github.com/White-Tiger</projectSourceUrl>
+    <!-- <projectSourceUrl>https://github.com/White-Tiger</projectSourceUrl>
     <packageSourceUrl>https://github.com/tylerszabo/chocolatey-packages</packageSourceUrl>
-    <bugTrackerUrl>https://github.com/White-Tiger/WinMTR/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/White-Tiger/WinMTR/issues</bugTrackerUrl> -->
   </metadata>
 </package>
