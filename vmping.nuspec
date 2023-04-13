@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>vmPing</id>
+    <id>vmping</id>
     <version>1.3.23</version>
     <title>vmPing (Install)</title>
     <authors>r-smith, pHiR0</authors>
