@@ -14,10 +14,11 @@ $WebFile = @{
 
 Get-ChocolateyWebFile @WebFile
 
-# Create/update Link
-$targetPath = $WebFile.FileFullPath
-$shortcutFile = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$($env:ChocolateyPackageName).lnk"
-$wshShell = New-Object -ComObject WScript.Shell
-$shortcut = $wshShell.CreateShortcut($shortcutFile)
-$shortcut.TargetPath = $targetPath
-$shortcut.Save()
+$ShortCut = @{
+  ShortcutFilePath = "$($env:ProgramData)\Microsoft\Windows\Start Menu\Programs\$($env:ChocolateyPackageName).lnk"
+  TargetPath = $WebFile.FileFullPath
+  WorkingDirectory = (get-item $WebFile.FileFullPath).Directory.FullName
+  Description = "vmPing v$($env:ChocolateyPackageVersion)"
+}
+
+Install-ChocolateyShortcut @ShortCut
