@@ -3,14 +3,14 @@
   <metadata>
     <id>vmping</id>
     <version>1.3.23</version>
-    <title>vmPing (Install)</title>
+    <title>vmPing (Portable)</title>
     <authors>r-smith, pHiR0</authors>
     <owners>pHiR0</owners>
-    <licenseUrl>https://github.com/pHiR0/vmPing/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/pHiR0/vmPing</projectUrl>
-    <iconUrl>https://github.com/r-smith/vmPing/blob/master/vmPing/Resources/vmPing-16.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/r-smith/vmPing/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/r-smith/vmPing</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/r-smith/vmPing/master/vmPing/Resources/vmPing-16.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>vmPing (Install)
+    <description>vmPing (Portable)
 ==============
 **vmPing** is a graphical ping utility for monitoring multiple hosts. Numerous host monitors can be added and removed, and each monitor dynamically resizes with the application window. Color-coding allows you to tell at a glance the status of each host. In addition to standard ICMP pings, you can also perform a TCP 'port ping', where the application continuously connects to a specified port and displays whether or not the port is open. A fast trace route utility and a basic packet generator / stress tester is also included.</description>
     <summary>vmPing is a graphical ping utility for monitoring multiple hosts.</summary>
@@ -26,7 +26,7 @@
     <copyright>Copyright © 2023 Ryan Smith</copyright>
     <tags>traceroute tracert ping dns pingports monitoring portable</tags>
     <projectSourceUrl>https://github.com/r-smith/vmPing</projectSourceUrl>
-    <packageSourceUrl>https://github.com/pHiR0/vmPing</packageSourceUrl>
+    <packageSourceUrl>https://github.com/pHiR0/choco-vmPing</packageSourceUrl>
     <bugTrackerUrl>https://github.com/r-smith/vmPing/issues</bugTrackerUrl>
   </metadata>
 </package>
