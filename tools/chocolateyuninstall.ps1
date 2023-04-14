@@ -35,7 +35,7 @@ if ($key.Count -eq 1) {
   $key | % {Write-Warning "- $($_.DisplayName)"}
 }
 
-$null = Remove-Item "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\$($env:ChocolateyPackageName).lnk" -Force
+$null = Remove-Item "$($env:ProgramData)\Microsoft\Windows\Start Menu\Programs\$($env:ChocolateyPackageName).lnk" -Force -ErrorAction SilentlyContinue
 
 
 
