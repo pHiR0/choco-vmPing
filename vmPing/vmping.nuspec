@@ -8,7 +8,7 @@
     <owners>pHiR0</owners>
     <licenseUrl>https://raw.githubusercontent.com/r-smith/vmPing/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/r-smith/vmPing/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/r-smith/vmPing/master/vmPing/Resources/vmPing-16.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/r-smith/vmPing/8337a75b2cad8585a2ded0af92c9032ad1a85b49/vmPing/Resources/vmPing-16.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>vmPing (Portable)
 ==============
