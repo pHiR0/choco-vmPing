@@ -8,7 +8,7 @@
     <owners>pHiR0</owners>
     <licenseUrl>https://github.com/pHiR0/vmPing/LICENSE</licenseUrl>
     <projectUrl>https://github.com/pHiR0/vmPing</projectUrl>
-    <iconUrl>https://github.com/r-smith/vmPing/blob/master/vmPing/Resources/vmPing-16.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/r-smith/vmPing/8337a75b2cad8585a2ded0af92c9032ad1a85b49/vmPing/Resources/vmPing-16.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>vmPing (Install)
 ==============
