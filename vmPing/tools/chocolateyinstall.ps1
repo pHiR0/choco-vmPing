@@ -14,10 +14,13 @@ $WebFile = @{
 
 Get-ChocolateyWebFile @WebFile
 
+# Mark as GUI application so the shim does not block the console
+New-Item "$($WebFile.FileFullPath).gui" -Type File -Force | Out-Null
+
 $ShortCut = @{
   ShortcutFilePath = "$($env:ProgramData)\Microsoft\Windows\Start Menu\Programs\$($env:ChocolateyPackageName).lnk"
   TargetPath = $WebFile.FileFullPath
-  WorkingDirectory = (get-item $WebFile.FileFullPath).Directory.FullName
+  WorkingDirectory = (Get-Item $WebFile.FileFullPath).Directory.FullName
   Description = "vmPing v$($env:ChocolateyPackageVersion)"
 }
 
